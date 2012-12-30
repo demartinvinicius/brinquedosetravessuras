@@ -138,6 +138,7 @@ label {
 }
 #container {
 	height: 100%;
+        background: #269BC6;
 }
 body > #container {
 	height: auto;
