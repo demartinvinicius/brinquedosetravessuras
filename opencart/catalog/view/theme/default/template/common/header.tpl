@@ -50,7 +50,7 @@ DD_belatedPNG.fix('#logo img');
   <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
   <?php } ?>
   <?php echo $language; ?>
-  <?php echo $currency; ?>
+  <!--Retirado por Vinicius Para desabilitar o campo currency <?php echo $currency; ?>-->
   <?php echo $cart; ?>
   <div id="search">
     <div class="button-search"></div>

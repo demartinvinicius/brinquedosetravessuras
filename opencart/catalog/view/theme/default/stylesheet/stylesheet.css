@@ -4,7 +4,7 @@ html {
 	padding: 0;
 }
 body {
-	background-color: #ffffff;
+	background: #02A8E0;
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
@@ -69,6 +69,7 @@ label {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
+        background: url(../image/content_bg.png) repeat-y;
 }
 #column-left {
 	float: left;
@@ -98,8 +99,8 @@ label {
 }
 #header #logo {
 	position: absolute;
-	top: 25px;
-	left: 15px;
+	top: 2px;
+	left: 2px;
 }
 #language {
 	position: absolute;
@@ -118,14 +119,14 @@ label {
 	position: absolute;
 	top: 15px;
 	left: 425px;
-	color: #999;
+	color: #A64B00;
 	line-height: 17px;
 }
 #currency a {
 	display: inline-block;
 	padding: 2px 4px;
 	border: 1px solid #CCC;
-	color: #999;
+	color: #A64B00;
 	text-decoration: none;
 	margin-right: 2px;
 	margin-bottom: 2px;
@@ -147,10 +148,10 @@ label {
 	margin-top: 15px;
 	padding-left: 14px;
 	padding-right: 14px;
-	border-top: 1px solid #FFFFFF;
-	border-left: 1px solid #FFFFFF;
-	border-right: 1px solid #EEEEEE;
-	background: #FFF;
+        border-color: #ffffff;
+        border-style: solid;
+        border-width: 1px;
+        background: #02A8E0;
 	position: relative;
 	z-index: 1;
 }
@@ -162,11 +163,11 @@ label {
 	margin-bottom: 3px;
 }
 #header #cart .heading a {
-	color: #38B0E3;
+	color: #A64B00;
 	text-decoration: none;
 }
 #header #cart .heading a span {
-	background: #FFFFFF url('../image/arrow-down.png') 100% 50% no-repeat;
+	background: #02A8E0 url('../image/arrow-down.png') 100% 50% no-repeat;
 	padding-right: 15px;
 }
 #header #cart .content {
