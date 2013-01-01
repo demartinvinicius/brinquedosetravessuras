@@ -1,0 +1,6 @@
+#Instrui o git para ignorar os diretorios de cache do opencart
+cache/
+
+#Instrui o git para ignorar o projeto NetBeans
+nbproject/
+
